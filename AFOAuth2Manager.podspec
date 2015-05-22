@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
 
-  s.dependency 'AFNetworking/NSURLConnection', :git => 'https://github.com/VarshaSameer/AFOAuth2Manager.git'
+  s.dependency 'AFNetworking/NSURLConnection', '~>1.3'
 
   s.ios.frameworks = 'Security'
 end
