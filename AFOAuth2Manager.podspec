@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/AFNetworking/AFOAuth2Manager'
   s.social_media_url = "https://twitter.com/AFNetworking"
   s.author   = { 'Mattt Thompson' => 'm@mattt.me' }
-  s.source   = { :git => 'https://github.com/AFNetworking/AFOAuth2Manager.git',
+  s.source   = { :git => 'https://github.com/VarshaSameer/AFOAuth2Manager.git',
                  :tag => s.version }
   s.source_files = 'AFOAuth2Manager'
   s.requires_arc = true
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
 
-  s.dependency 'AFNetworking/NSURLConnection', '~>1.3'
+  s.dependency 'AFNetworking/NSURLConnection', :git => 'https://github.com/VarshaSameer/AFOAuth2Manager.git'
 
   s.ios.frameworks = 'Security'
 end
